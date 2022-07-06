@@ -1,0 +1,48 @@
+{
+  "name": "edotco-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "@meilisearch/instant-meilisearch": "^0.7.1",
+    "@react-google-maps/api": "^2.10.2",
+    "@tailwindcss/forms": "^0.5.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "axios": "^0.26.1",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-config-prettier": "8.0.0",
+    "markdown-it": "^12.3.2",
+    "moment": "^2.29.1",
+    "next": "12.1.0",
+    "next-share": "^0.13.0",
+    "node-linkedin": "^0.5.6",
+    "react": "17.0.2",
+    "react-audio-player": "^0.17.0",
+    "react-dom": "17.0.2",
+    "react-instantsearch-hooks-web": "^6.27.0",
+    "react-slick": "^0.28.1",
+    "remove-markdown-and-html": "^0.1.0",
+    "serverless": "2.72.2",
+    "sharp": "^0.30.6",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/eslint-parser": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "autoprefixer": "^10.4.4",
+    "eslint": "^8.16.0",
+    "eslint-config-next": "12.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.0",
+    "tailwindcss": "^3.0.23"
+  }
+}

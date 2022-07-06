@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Mulish-ExtraLight';
+  src: url('../public/fonts/mulish/Mulish-ExtraLight.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish-Regular';
+  src: url('../public/fonts/mulish/Mulish-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish-Black';
+  src: url('../public/fonts/mulish/Mulish-Black.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish-SemiBold';
+  src: url('../public/fonts/mulish/Mulish-SemiBold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish-Bold';
+  src: url('../public/fonts/mulish/Mulish-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Mulish-ExtraBold';
+  src: url('../public/fonts/mulish/Mulish-ExtraBold.ttf');
+  font-display: swap;
+}
